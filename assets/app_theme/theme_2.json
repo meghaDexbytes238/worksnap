@@ -1,0 +1,33 @@
+{
+  "homeBottomNavigationBar": {
+    "backgroundColor": "0xFFFFFFFF",
+    "activeIconColor": "0xFF2196F3",
+    "deActiveIconColor": "0xFF607D8B",
+    "activeMenuTextStyle": {
+      "fontSize": 12,
+      "color": "0xFF2196F3"
+    },
+    "deActiveMenuTextStyle": {
+      "fontSize": 12,
+      "color": "0xFF607D8B"
+    },"elevation": 0.0,
+    "bottomMenuType": 0,
+    "menu_item": [
+      {
+        "icon": "0xf53a",
+        "label": "Home",
+        "backgroundColor": "0xFFFFEBEE",
+        "menuPageId": "menu1"
+      },
+      {"icon": "0xe11b",
+        "label": "Studio",
+        "backgroundColor": "0xFFFFEBEE",
+        "menuPageId": "menu2"
+      }
+    ]
+  },
+
+  "setting": {
+    "homeBottomNavigationBarHeight": 56
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "homeBottomNavigationBar": {
+    "backgroundColor": "0xFF000000",
+    "activeIconColor": "0xFFE7F3A9",
+    "deActiveIconColor": "0xFFE7F3A9",
+    "activeMenuTextStyle": {
+      "fontSize": 12,
+      "color": "0xFF2196F3"
+    },
+    "deActiveMenuTextStyle": {
+      "fontSize": 12,
+      "color": "0xFFE7F3A9"
+    },"elevation": 0.0,
+    "bottomMenuType": 0,
+    "menu_item": [
+
+      {
+        "icon": "0xf53a",
+        "label": "Home",
+        "backgroundColor": "0xFFDD2E37",
+        "menuPageId": "menu1",
+        "statusBarColors": "0xFFDD2E37"
+      },
+      {"icon": "0xe11b",
+        "label": "Studio",
+        "backgroundColor": "0xFFDD2E37",
+        "menuPageId": "menu2",
+        "statusBarColors": "0xFFDD2E37"
+      },
+      {"icon": "0xe04b",
+        "label": "Category",
+        "backgroundColor": "0xFFDD2E37",
+        "menuPageId": "menu3",
+        "statusBarColors": "0xFFF8BC15"
+      },
+      {"icon": "0xee4e",
+        "label": "Profile",
+        "backgroundColor": "0xFFDD2E37",
+        "menuPageId": "menu4",
+        "statusBarColors": "0xFF27AE60"
+      },
+      {
+        "activeIcon":"assets/images/bottom_menu_notification_icon.svg",
+        "deActiveIcon":"assets/images/bottom_menu_notification_icon.svg",
+        "label": "Alerts",
+        "backgroundColor": "0xFFDD2E37",
+        "menuPageId": "menu4",
+        "statusBarColors": "0xff212327"
+      }
+    ]
+  },
+
+  "setting": {
+    "homeBottomNavigationBarHeight": 56,
+    "statusBarColors": "0xFF272727",
+    "appBackgroundColors": ["0xFFFFFFFF"]
+  }
+}

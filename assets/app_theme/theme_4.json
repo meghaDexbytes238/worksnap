@@ -1,0 +1,50 @@
+{
+  "homeBottomNavigationBar": {
+    "backgroundColor": "0xFFFFFFFF",
+    "activeIconColor": "0xFF2196F3",
+    "deActiveIconColor": "0xFF607D8B",
+    "activeMenuTextStyle": {
+      "fontSize": 12,
+      "color": "0xFF2196F3"
+    },
+    "deActiveMenuTextStyle": {
+      "fontSize": 12,
+      "color": "0xFF607D8B"
+    },"elevation": 0.0,
+    "bottomMenuType": 0,
+    "menu_item": [
+
+      {"icon": "0xe11b",
+        "label": "Studio",
+        "backgroundColor": "0xFFDD2E37",
+        "menuPageId": "menu2",
+        "statusBarColors": "0xFFDD2E37"
+      },
+      {"icon": "0xe04b",
+        "label": "Category",
+        "backgroundColor": "0xFFDD2E37",
+        "menuPageId": "menu3",
+        "statusBarColors": "0xFFF8BC15"
+      },
+      {"icon": "0xee4e",
+        "label": "Profile",
+        "backgroundColor": "0xFFDD2E37",
+        "menuPageId": "menu4",
+        "statusBarColors": "0xFF27AE60"
+      },
+      {"icon": "0xe559",
+        "label": "Explore",
+        "backgroundColor": "0xFFDD2E37",
+        "statusBarColors": "0xFFDD2E37",
+        "menuPageId": "menu5"
+
+      }
+    ]
+  },
+
+  "setting": {
+    "homeBottomNavigationBarHeight": 56,
+    "statusBarColors": "0xFFDD2E37",
+    "appBackgroundColors": ["0xFFFFFFFF"]
+  }
+}
